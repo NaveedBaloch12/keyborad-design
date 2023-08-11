@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap');
+
+:root {
+    --row-1-col: rgb(255, 0, 0);
+    --row-2-col: rgb(255, 85, 0);
+    --row-3-col: orange;
+    --row-4-col: rgb(0, 196, 0);
+    --row-5-col: rgb(105, 212, 255);
+    --row-6-col: rgb(111, 0, 255);
+    --row-1-col--shdow: rgba(255, 0, 0, 0.6);
+    --row-2-col--shdow: rgba(255, 85, 0, 0.6);
+    --row-3-col--shdow: rgba(255, 166, 0, 6);
+    --row-4-col--shdow: rgb(0, 196, 0, 0.6);
+    --row-5-col--shdow: rgb(105, 212, 255, 0.6);
+    --row-6-col--shdow: rgb(111, 0, 255, 0.6);
+}
+
+#arrow{
+    color: white;
+}
+
+#keyborad__show {
+    position: absolute;
+    bottom: 1rem;
+    padding: 6px 0;
+    font-size: 18;
+    color: green;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.859);
+    width: 39rem;
+    border-radius: 8px;
+    left: 50%;
+    cursor: pointer;
+    transform: translate(-50%);
+}
+
+.Keyboard {
+    width: fit-content;
+    display: flex;
+    padding: .5rem;
+    border-radius: 8px;
+    background-image: url(/img/adrien-olichon-ilVYjf0J378-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 3.2rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.row__1--sections,
+.rows {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2em;
+    height: 2em;
+    margin: 3px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    background-color: black;
+    transition: all .1s;
+}
+
+
+.row__1 {
+    justify-content: space-between;
+    margin-block: .5em;
+    color: var(--row-1-col);
+}
+
+.row__1 .btn {
+    box-shadow: 0px 0px 10px var(--row-1-col--shdow);
+}
+
+.row__2 {
+    color: var(--row-2-col);
+}
+
+.row__2 .btn {
+    box-shadow: 0px 0px 10px var(--row-2-col--shdow);
+}
+
+.row__3 {
+    color: var(--row-3-col);
+}
+
+.row__3 .btn {
+    box-shadow: 0px 0px 10px var(--row-3-col--shdow);
+}
+
+.row__4 {
+    color: var(--row-4-col);
+}
+
+.row__4 .btn {
+    box-shadow: 0px 0px 10px var(--row-4-col--shdow);
+}
+
+.row__5 {
+    color: var(--row-5-col);
+}
+
+.row__5 .btn {
+    box-shadow: 0px 0px 10px var(--row-5-col--shdow);
+}
+
+.row__6 {
+    color: var(--row-6-col);
+}
+
+.row__6 .btn {
+    box-shadow: 0px 0px 10px var(--row-6-col--shdow);
+}
+
+
+
+.back__btn {
+    width: 5em;
+}
+
+.tab__btn,
+.bac__slash__btn {
+    width: 3.5em;
+}
+
+.caps__btn {
+    width: 4.2em;
+}
+
+.enter__btn {
+    width: 5.3em;
+}
+
+.shift__btn {
+    width: 6em;
+}
+
+.space__btn {
+    width: 20em;
+}
+
+.alt__btn,
+.ctrl__btn {
+    width: 3em;
+}
+
+.active{
+    color: white;
+    transform: scale(.9);
+}
